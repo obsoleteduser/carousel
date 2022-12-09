@@ -7,7 +7,7 @@ let imageSet = []
 const setImage = async (URL) => {
 
     let i = 0
-    setInterval(async () => {
+   const interval = setInterval(async () => {
         const response = await fetch(URL)
         const data = await response.json()
         imageContent.innerHTML = `<img src="" alt="" class="image">`
