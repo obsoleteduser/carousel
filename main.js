@@ -18,7 +18,7 @@ const setImage = async (URL) => {
         carousel.querySelector('img').src = imageSet[0]
 
 
-    }, 2000)
+    }, 3000)
 
 
 
